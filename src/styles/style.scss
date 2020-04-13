@@ -34,7 +34,7 @@ $off-white: #f2f4f5;
 html,
 body {
   font-family: $font;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 header {
@@ -50,7 +50,6 @@ header {
         color: $black;
         text-decoration: none;
         font-weight: 700;
-        letter-spacing: 1.5px;
         text-transform: uppercase;
       }
     }
@@ -69,6 +68,28 @@ header {
           border-bottom: 1px solid $black;
         }
       }
+    }
+  }
+}
+
+.blog-page {
+  h1 {
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  ul {
+    li {
+      list-style: none;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.blog-post {
+  .inner-blog-post {
+    margin-top: 16px;
+    .blog-content {
+      margin-top: 16px;
     }
   }
 }
